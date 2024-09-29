@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Carregar os dados
-df = pd.read_csv("Vigorou.csv", sep=';', encoding='ISO-8859-1')
+df = pd.read_csv("DB1.csv", sep=';', encoding='ISO-8859-1')
 
 # Definir as colunas independentes e a dependente
 colunas_independentes = ["Categoria do veiculo", "Numero de passageiros", "Capacidade de porta-malas", "Possui ar-condicionado", "Tipo de cambio"]
