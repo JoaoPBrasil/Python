@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("Vigorou.csv")
+df = pd.read_csv("DB1.csv")
 colunas_independentes = ["Categoria-do-veiculo","Numero-de-passageiros","Capacidade-de-porta-malas","Possui-ar-condicionado","Tipo-de-cambio"]
 
 print('=' * 40)
